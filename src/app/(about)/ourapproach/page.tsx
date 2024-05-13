@@ -32,7 +32,6 @@ function Page() {
             <li>Private sector</li>
           </ul>
         </div>
-        ,
       </Container>
     </>
   );
