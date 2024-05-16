@@ -1,3 +1,5 @@
+import { partners } from "@/utils/collections";
+
 const Footer = () => {
   return (
     <>
@@ -24,9 +26,11 @@ const Footer = () => {
         </nav>
         <nav>
           <h6 className="footer-title">Partners</h6>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+          {partners.map((p, i) => (
+            <a key={i} className="link link-hover">
+              {p.name}
+            </a>
+          ))}
         </nav>
       </footer>
       <div className="footer footer-center p-4 bg-[#15191e] text-gray-200">
@@ -36,6 +40,6 @@ const Footer = () => {
       </div>
     </>
   );
-}
+};
 
 export default Footer;

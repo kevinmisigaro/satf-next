@@ -1,5 +1,6 @@
 "use client";
 
+import AnnoucementBanner from "@/components/annoucementBanner";
 import Button from "@/components/general/button";
 import Container from "@/components/general/container";
 import Header from "@/components/general/header";
@@ -23,6 +24,8 @@ export default function Home() {
         </div>
       </div>
       <Container>
+        <AnnoucementBanner />
+
         <div className="my-10">
           <Header text="About Us" />
 
@@ -36,7 +39,7 @@ export default function Home() {
             regions and 32 districts of Tanzania Mainland.
           </p>
 
-          <Button link="/" name="LEARN MORE" />
+          <Button link="/whoweare" name="LEARN MORE" />
 
           <div className="grid grid-cols-1 md:grid-cols-2 mt-10">
             <div>

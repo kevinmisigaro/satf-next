@@ -56,6 +56,9 @@ const Navbar = () => {
                   <a href="/whoweare">WHO WE ARE</a>
                 </li>
                 <li>
+                  <a href="/whatguidesus">WHAT GUIDES US</a>
+                </li>
+                <li>
                   <a href="/ourapproach">OUR APPROACH</a>
                 </li>
               </ul>
@@ -93,16 +96,16 @@ const Navbar = () => {
               <summary className="font-semibold">GET INVOLVED</summary>
               <ul className="p-2 bg-white">
                 <li>
-                  <a>Submenu 1</a>
+                  <a href="/donate">DONATE</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a href="/partnerwithus">PARTNER WITH US</a>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-            <a className="font-semibold">CONTACT</a>
+            <a href="/contact" className="font-semibold">CONTACT</a>
           </li>
         </ul>
       </div>
