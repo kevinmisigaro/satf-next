@@ -64,12 +64,23 @@ const Navbar = () => {
           <li>
             <details>
               <summary className="font-semibold">PROGRAMS</summary>
-              <ul className="p-2 bg-white">
+              <ul className="p-2 bg-white w-36">
                 <li>
-                  <a>Submenu 1</a>
+                  <a href="/educationsupport">EDUCATION SUPPORT</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a href="/healthsupport">HEALTH SUPPORT</a>
+                </li>
+                <li>
+                  <a href="/specialsupport">SPECIAL SUPPORT</a>
+                </li>
+                <li>
+                  <a href="/householdempowerment">
+                    HOUSEHOLD ECONOMIC EMPOWERMENT
+                  </a>
+                </li>
+                <li>
+                  <a href="/childprotection">CHILD PROTECTION AND ADVOCACY</a>
                 </li>
               </ul>
             </details>

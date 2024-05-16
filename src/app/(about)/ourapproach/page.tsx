@@ -24,13 +24,20 @@ function Page() {
           Organizations(CBOs) at the grassroot levels in collaboration with:
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 py-5">
-          <ul className="list-disc ml-4 leading-loose">
-            <li>Central Government,</li>
-            <li>Local Government Authorities,</li>
-            <li>Developing partners,</li>
-            <li>Education institutions,</li>
-            <li>Private sector</li>
-          </ul>
+          <div className="flex flex-col gap-y-6">
+            <ul className="list-disc ml-4 leading-loose">
+              <li>Central Government,</li>
+              <li>Local Government Authorities,</li>
+              <li>Developing partners,</li>
+              <li>Education institutions,</li>
+              <li>Private sector</li>
+            </ul>
+
+            <img src="/assets/overral/7-scaled.jpg" className="max-w-md" />
+          </div>
+          <div>
+            <img src="/assets/overral/laptop-award.jpeg" className="max-w-md" />
+          </div>
         </div>
       </Container>
     </>
