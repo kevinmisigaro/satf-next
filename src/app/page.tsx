@@ -91,7 +91,7 @@ export default function Home() {
         <div className="hero-content text-center text-white">
           <div className="max-w-2xl">
             <h3 className="mb-5 text-5xl font-bold">Our Success Stories</h3>
-            <Button name="LEARN MORE" link="/" />
+            <Button name="LEARN MORE" link="/stories" />
           </div>
         </div>
       </div>

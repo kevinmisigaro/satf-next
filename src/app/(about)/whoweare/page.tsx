@@ -1,5 +1,5 @@
 import Container from "@/components/general/container";
-import React from "react";
+import Header from "@/components/general/header";
 
 function Page() {
   return (
@@ -50,13 +50,30 @@ function Page() {
                 <span className="font-semibold underline">PRUDENT</span>
               </p>
               <ul className="list-disc list-inside ml-4 text-white">
-                <li>Passion for support of needy children</li>
-                <li>Respect roles and those of others</li>
-                <li>Unity of Purpose on what is done</li>
-                <li>Dedication in expected delivery</li>
-                <li>Excellence in whatever is done</li>
-                <li>Teamwork to improving performance.</li>
+                <li className="text-white">Passion for support of needy children</li>
+                <li className="text-white">Respect roles and those of others</li>
+                <li className="text-white">Unity of Purpose on what is done</li>
+                <li className="text-white">Dedication in expected delivery</li>
+                <li className="text-white">Excellence in whatever is done</li>
+                <li className="text-white">Teamwork to improving performance.</li>
               </ul>
+            </div>
+          </div>
+
+          <div className="mt-20 mb-10">
+            <Header text="Board of Trustees" />
+            <div className="w-full flex justify-center items-center">
+              <img src="/assets/images/satf-board-of-trustees.png" />
+            </div>
+          </div>
+
+          <div className="mt-20 mb-10">
+            <Header text="Staff Members" />
+            <div className="w-full flex justify-center items-center">
+              <img
+                src="/assets/images/staff-staff-members.png"
+                className="w-[60rem]"
+              />
             </div>
           </div>
         </div>

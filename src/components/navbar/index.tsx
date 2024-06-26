@@ -88,9 +88,9 @@ const Navbar = () => {
               </ul>
             </details>
           </li>
-          <li>
+          {/* <li>
             <a className="font-semibold">PUBLICATION</a>
-          </li>
+          </li> */}
           <li>
             <details>
               <summary className="font-semibold">GET INVOLVED</summary>
