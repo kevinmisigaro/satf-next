@@ -14,7 +14,7 @@ const Footer = () => {
             <br />
             P.O. Box 31552, Dar Es Salaam, Tanzania
           </p>
-          <p className="text-white">+255 22 2780054</p>
+          <p className="text-white">+255761722108</p>
           <p className="text-white">info@satf.or.tz</p>
         </aside>
         <nav>
